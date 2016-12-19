@@ -1,0 +1,10 @@
+﻿  vector.cpp
+  ui.cpp
+c:\users\zhangping\desktop\车\2\仿真平台v1.0\cybercar\scs\src\ui.cpp(208): error C3688: 文本后缀“VERSION”无效；未找到文文本运算符或文本运算符模板“operator """"VERSION”
+  track.cpp
+  simulation.cpp
+  draw.cpp
+  car.cpp
+  api.cpp
+c:\users\zhangping\desktop\车\2\仿真平台v1.0\cybercar\scs\src\api.cpp(72): error C3688: 文本后缀“VERSION”无效；未找到文文本运算符或文本运算符模板“operator """"VERSION”
+  正在生成代码...

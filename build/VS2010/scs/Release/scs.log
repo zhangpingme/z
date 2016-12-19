@@ -1,0 +1,24 @@
+﻿Build started 2015/5/14 15:45:00.
+     1>Project "D:\TDDOWNLOAD\SCS-1.0.1\build\VS2010\scs\scs.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\scs.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\TDDOWNLOAD\SCS-1.0.1\build\VS2010\..\include" /I"D:\TDDOWNLOAD\SCS-1.0.1\build\VS2010\..\..\scs\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D dDOUBLE /D _USE_MATH_DEFINES /D FREEGLUT_STATIC /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /wd4996 /analyze- /errorReport:prompt ..\..\..\scs\src\track.cpp
+         track.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\TDDOWNLOAD\SCS-1.0.1\build\VS2010\Release\scs.lib" /NOLOGO /LTCG Release\api.obj
+         Release\car.obj
+         Release\draw.obj
+         Release\simulation.obj
+         Release\track.obj
+         Release\ui.obj
+         Release\vector.obj
+         scs.vcxproj -> D:\TDDOWNLOAD\SCS-1.0.1\build\VS2010\Release\scs.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\scs.unsuccessfulbuild".
+         Touching "Release\scs.lastbuildstate".
+     1>Done Building Project "D:\TDDOWNLOAD\SCS-1.0.1\build\VS2010\scs\scs.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.07

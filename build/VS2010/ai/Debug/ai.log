@@ -1,0 +1,47 @@
+﻿生成启动时间为 2016/11/29 22:46:35。
+     1>项目“C:\CyberCar\build\VS2010\ai\ai.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\ai.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\CyberCar\build\VS2010\..\include /IC:\CyberCar\build\VS2010\..\..\ai\include /ZI /nologo /W3 /WX- /Od /Oy- /D FREEGLUT_STATIC /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\ai\src\Drive.cpp
+         Drive.cpp
+     1>c:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\CyberCar\build\VS2010\Debug\ai.exe" /NOLOGO /LIBPATH:C:\CyberCar\build\VS2010\ai\lib opencv_core240d.lib opencv_imgproc240d.lib opencv_highgui240d.lib opencv_ml240d.lib opencv_video240d.lib opencv_features2d240d.lib opencv_calib3d240d.lib opencv_contrib240d.lib opencv_legacy240d.lib opencv_flann240d.lib opencv_gpu240d.lib freeglut_static.lib ode_double.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ai.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\CyberCar\build\VS2010\Debug\ai.pdb" /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\CyberCar\build\VS2010\Debug\ai.lib" /MACHINE:X86 Debug\Cam.obj
+         Debug\Drive.obj
+         Debug\main.obj
+         C:\CyberCar\build\VS2010\Debug\scs.lib
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: 默认库“libcmt.lib”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: 默认库“msvcrt.lib”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         正在生成代码
+         已完成代码的生成
+     1>freeglut_static.lib(freeglut_main.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static.lib(freeglut_main.obj)”或在“C:\CyberCar\build\VS2010\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_init.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static.lib(freeglut_init.obj)”或在“C:\CyberCar\build\VS2010\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_window.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static.lib(freeglut_window.obj)”或在“C:\CyberCar\build\VS2010\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_geometry.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static.lib(freeglut_geometry.obj)”或在“C:\CyberCar\build\VS2010\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_callbacks.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static.lib(freeglut_callbacks.obj)”或在“C:\CyberCar\build\VS2010\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_display.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static.lib(freeglut_display.obj)”或在“C:\CyberCar\build\VS2010\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_joystick.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static.lib(freeglut_joystick.obj)”或在“C:\CyberCar\build\VS2010\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_cursor.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static.lib(freeglut_cursor.obj)”或在“C:\CyberCar\build\VS2010\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_structure.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static.lib(freeglut_structure.obj)”或在“C:\CyberCar\build\VS2010\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_menu.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static.lib(freeglut_menu.obj)”或在“C:\CyberCar\build\VS2010\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_state.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static.lib(freeglut_state.obj)”或在“C:\CyberCar\build\VS2010\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_input_devices.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static.lib(freeglut_input_devices.obj)”或在“C:\CyberCar\build\VS2010\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_gamemode.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static.lib(freeglut_gamemode.obj)”或在“C:\CyberCar\build\VS2010\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_spaceball.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static.lib(freeglut_spaceball.obj)”或在“C:\CyberCar\build\VS2010\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_font.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static.lib(freeglut_font.obj)”或在“C:\CyberCar\build\VS2010\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_font_data.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static.lib(freeglut_font_data.obj)”或在“C:\CyberCar\build\VS2010\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_stroke_roman.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static.lib(freeglut_stroke_roman.obj)”或在“C:\CyberCar\build\VS2010\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_stroke_mono_roman.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“freeglut_static.lib(freeglut_stroke_mono_roman.obj)”或在“C:\CyberCar\build\VS2010\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         ai.vcxproj -> C:\CyberCar\build\VS2010\Debug\ai.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\CyberCar\build\VS2010\Debug\ai.exe;#1" /manifest Debug\ai.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\ai.unsuccessfulbuild”。
+         正在对“Debug\ai.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\CyberCar\build\VS2010\ai\ai.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.37
